@@ -13,7 +13,7 @@ function Home() {
     series={[
       {
         name: "MyTester",
-        data: [100, 200, 300, 400],
+        data: [50, 200, 300, 400],
       },
     ]}
     options={{}}
