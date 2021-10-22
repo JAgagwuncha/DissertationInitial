@@ -28,16 +28,12 @@ const Navbar = () => {
           <div className="navbar-start">
           
 
-            <NavLink className="navbar-item" activeClassName="is-active" to="/">
-              2019
-            </NavLink>
-
             <NavLink
               className="navbar-item"
               activeClassName="is-active"
-              to="/firstPageTest"
+              to="/FirstPageTest"
             >
-              firstPageTest
+              FirstPageTest
             </NavLink>
 
             <NavLink
@@ -45,7 +41,7 @@ const Navbar = () => {
               activeClassName="is-active"
               to="/Home"
             >
-              Info
+              Home
             </NavLink>
             
           </div>

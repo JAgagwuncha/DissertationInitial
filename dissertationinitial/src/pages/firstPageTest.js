@@ -3,7 +3,7 @@ import "../App.js";
 import ApexCharts from "apexcharts";
 import Chart from "react-apexcharts";
 
-function Home() {
+function FirstPageTest() {
   return (
     <h1>1st Page</h1>,
     <Chart
@@ -23,4 +23,4 @@ function Home() {
   
 }
 
-export default Home;
+export default FirstPageTest;

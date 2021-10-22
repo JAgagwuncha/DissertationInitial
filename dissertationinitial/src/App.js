@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import ApexCharts from 'apexcharts'
 import Home from "./pages/Home";
-import firstPageTest from "./pages/firstPageTest"
+import FirstPageTest from "./pages/FirstPageTest"
 import Chart from "react-apexcharts"
 import Navbar from "./pages/Navbar";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -19,13 +19,10 @@ function App() {
         <Route path="/Home">
             <Home />
           </Route>
-          <Route exact path="/">
-            <firstPageTest />
+          <Route path="/FirstPageTest">
+            <FirstPageTest />
           </Route>
         </Switch>
-        <Helmet>
-          <title>{ TITLE }</title>
-        </Helmet>
       </div>
     </BrowserRouter>
    
