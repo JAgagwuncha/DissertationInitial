@@ -11,6 +11,8 @@ import { Helmet } from "react-helmet";
 import Question820 from "./pages/Question820";
 import ChangeInAttitude from "./pages/ChangeInAttitude";
 import LackOfFunds from "./pages/LackOfFunds";
+import HiddenCirriculum from "./pages/HiddenCirriculum";
+
 
 const TITLE = 'The Tester!'
 
@@ -35,6 +37,9 @@ function App() {
             </Route>
             <Route path="/LackofFunds">
               <LackOfFunds />
+            </Route>
+            <Route path="/HiddenCirriculum">
+              <HiddenCirriculum/>
             </Route>
           </Switch>
           <Helmet>

@@ -45,6 +45,13 @@ const Navbar = () => {
             <NavLink
               className="navbar-item"
               activeClassName="is-active"
+              to="/HiddenCirriculum"
+            >
+              HiddenCirriculum
+            </NavLink>
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
               to="/FirstPageTest"
             >
               FirstPageTest
