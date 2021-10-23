@@ -15,5 +15,6 @@ code {
   min-height: 400px;
   max-height: 400px;
   overflow-y: auto;
+  justify-content: center;
   overflow-x: hidden;
 }

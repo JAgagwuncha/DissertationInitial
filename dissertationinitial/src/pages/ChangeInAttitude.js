@@ -14,7 +14,7 @@ class ChangeInAttitude extends React.Component {
           data: [4, 8, 6, 9, 9, 8, 7, 5, 10, 8, 7, 10, 10, 3, 4, 3, 7, 5, 8, 7],
         },
         {
-          name:"Attitude towards learning post university",
+          name:"Attitude towards learning post UEA",
           data: [8, 8, 5, 6, 8, 2, 8, 7, 8, 8, 5, 9, 8, 1, 7, 5, 6, 7, 6, 7],
         },
       ],
@@ -22,6 +22,12 @@ class ChangeInAttitude extends React.Component {
         chart: {
           type: "bar",
           height: 430,
+          title: "name",
+        },
+        title: {
+          text: 'Change in Attitude towards learning whilst at UEA',
+          align: 'center'
+      
         },
         plotOptions: {
           bar: {
@@ -62,6 +68,7 @@ class ChangeInAttitude extends React.Component {
     return (
       <div id="chart">
         <Chart
+          title="Work please"
           options={this.state.options}
           series={this.state.series}
           type="bar"

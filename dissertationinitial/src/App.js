@@ -10,6 +10,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Question820 from "./pages/Question820";
 import ChangeInAttitude from "./pages/ChangeInAttitude";
+import LackOfFunds from "./pages/LackOfFunds";
 
 const TITLE = 'The Tester!'
 
@@ -31,6 +32,9 @@ function App() {
             </Route>
             <Route path="/ChangeInAttitude">
               <ChangeInAttitude />
+            </Route>
+            <Route path="/LackofFunds">
+              <LackOfFunds />
             </Route>
           </Switch>
           <Helmet>

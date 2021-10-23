@@ -37,6 +37,14 @@ const Navbar = () => {
             <NavLink
               className="navbar-item"
               activeClassName="is-active"
+              to="/LackOfFunds"
+            >
+              LackOfFunds
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
               to="/FirstPageTest"
             >
               FirstPageTest
