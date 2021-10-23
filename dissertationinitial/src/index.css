@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.graphic-container {
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

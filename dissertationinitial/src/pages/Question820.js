@@ -3,11 +3,10 @@ import "../App.js";
 import ApexCharts from "apexcharts";
 import Chart from "react-apexcharts";
 
-function FirstPageTest() {
+function Question820() {
   return (
-    (<h1>1st Page</h1>),
-    (
-      <div class="graphic-container">
+    <h1>Change in Atttiude</h1>,
+    <div class="graphic-container">
         <Chart
           type="bar"
           width={400}
@@ -21,8 +20,9 @@ function FirstPageTest() {
           options={{}}
         ></Chart>
       </div>
-    )
   );
+
+  
 }
 
-export default FirstPageTest;
+export default Question820;
