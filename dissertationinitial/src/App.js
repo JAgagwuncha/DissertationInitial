@@ -12,6 +12,9 @@ import Question820 from "./pages/Question820";
 import ChangeInAttitude from "./pages/ChangeInAttitude";
 import LackOfFunds from "./pages/LackOfFunds";
 import HiddenCirriculum from "./pages/HiddenCirriculum";
+import Gender from "./pages/Gender";
+import IdentityEffect from "./pages/IdentityEffect";
+import UEAvsSociety from "./pages/UEAvsSociety";
 
 
 const TITLE = 'The Tester!'
@@ -40,6 +43,15 @@ function App() {
             </Route>
             <Route path="/HiddenCirriculum">
               <HiddenCirriculum/>
+            </Route>
+            <Route path="/Gender">
+              <Gender/>
+            </Route>
+            <Route path="/IdentityEffect">
+              <IdentityEffect/>
+            </Route>
+            <Route path="/UEAvsSociety">
+              <UEAvsSociety/>
             </Route>
           </Switch>
           <Helmet>

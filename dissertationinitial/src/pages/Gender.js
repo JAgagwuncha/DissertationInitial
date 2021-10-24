@@ -3,37 +3,34 @@ import ApexCharts from "apexcharts";
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
 
-class LackOfFunds extends Component {
+class Gender extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       options: {
-        legend: {
-          fontSize: "20px"
-        },
-        labels: ["Having to work", "Took breaks from studying", "Other"],
+        labels: ["Female", "Male", "Non-Binary", "Other"],
         title: {
-            text: "How did a lack of funds affect your experience at UEA?",
+            text: "What gender do you identify as?",
             align: "center",
           },
       },
-      series: [13, 3, 6],
+      series: [13, 6, 1],
     };
   }
 
   render() {
     return (
-      <div className="LackOfFunds">
+      <div className="Gender">
         <Chart
           options={this.state.options}
           series={this.state.series}
           type="donut"
-          width="600"
+          width="500"
         />
       </div>
     );
   }
 }
 
-export default LackOfFunds;
+export default Gender;

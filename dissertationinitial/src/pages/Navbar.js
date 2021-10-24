@@ -41,6 +41,30 @@ const Navbar = () => {
             >
               LackOfFunds
             </NavLink>
+            
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/Gender"
+            >
+              Gender
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/IdentityEffect"
+            >
+              IdentityEffect
+            </NavLink>
+
+            <NavLink
+              className="navbar-item"
+              activeClassName="is-active"
+              to="/UEAvsSociety"
+            >
+              UEAvsSociety
+            </NavLink>
 
             <NavLink
               className="navbar-item"
